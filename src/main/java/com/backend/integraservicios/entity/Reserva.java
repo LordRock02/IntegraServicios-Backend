@@ -30,6 +30,7 @@ public class Reserva {
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaPrestamo;
     private LocalDateTime fechaDevolucion;
+    private Integer calificacion;
 
     @ManyToOne
     @JoinColumn(name = "usuario_id", nullable = false)

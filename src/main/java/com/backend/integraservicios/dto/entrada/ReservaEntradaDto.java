@@ -40,4 +40,5 @@ public class ReservaEntradaDto {
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaPrestamo;
     private LocalDateTime fechaDevolucion;
+    private Integer calificacion;
 }

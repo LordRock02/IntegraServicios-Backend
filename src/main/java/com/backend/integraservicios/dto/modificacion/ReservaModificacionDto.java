@@ -41,4 +41,5 @@ public class ReservaModificacionDto {
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaPrestamo;
     private LocalDateTime fechaDevolucion;
+    private Integer calificacion;
 }

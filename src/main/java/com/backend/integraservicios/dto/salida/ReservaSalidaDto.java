@@ -23,4 +23,5 @@ public class ReservaSalidaDto {
     private String fechaCreacion;
     private String fechaPrestamo;
     private String fechaDevolucion;
+    private Integer calificacion;
 }
